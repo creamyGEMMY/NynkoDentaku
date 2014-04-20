@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="NumButton" parent="android:style/Widget.ImageButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:onClick">NumKeyOnClick</item>
+    </style>
+
+    <style name="MenuButton" parent="android:style/Widget.ImageButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:onClick">MenuKeyOnClick</item>
+    </style>
+
+    <style name="OperatorButton" parent="android:style/Widget.ImageButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:onClick">OpeKeyOnClick</item>
+    </style>
+
+    <style name="PanelMenuButton" parent="android:style/Widget.ImageButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:onClick">PanelKeyOnClick</item>
+    </style>
+
+    <drawable name="semitransparent">#66FFFFFF</drawable>
+
+</resources>

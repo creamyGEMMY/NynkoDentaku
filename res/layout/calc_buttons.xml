@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="329dp"
+    android:gravity="center_horizontal" >
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <ImageButton
+            android:id="@+id/menuBS"
+            style="@style/MenuButton"
+            android:background="@drawable/selector_menu_bs" />
+
+        <ImageButton
+            android:id="@+id/menuPercent"
+            style="@style/MenuButton"
+            android:background="@drawable/selector_menu_per" />
+
+        <ImageButton
+            android:id="@+id/menuRepeat"
+            style="@style/MenuButton"
+            android:background="@drawable/selector_menu_repeat" />
+
+        <ImageButton
+            android:id="@+id/menuChange"
+            style="@style/MenuButton"
+            android:background="@drawable/selector_menu_change" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <ImageButton
+            android:id="@+id/num7"
+            style="@style/NumButton"
+            android:background="@drawable/selector_num7" />
+
+        <ImageButton
+            android:id="@+id/num8"
+            style="@style/NumButton"
+            android:background="@drawable/selector_num8" />
+
+        <ImageButton
+            android:id="@+id/num9"
+            style="@style/NumButton"
+            android:background="@drawable/selector_num9" />
+
+        <ImageButton
+            android:id="@+id/calcDiv"
+            style="@style/OperatorButton"
+            android:background="@drawable/selector_ope_waru" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <ImageButton
+            android:id="@+id/num4"
+            style="@style/NumButton"
+            android:background="@drawable/selector_num4" />
+
+        <ImageButton
+            android:id="@+id/num5"
+            style="@style/NumButton"
+            android:background="@drawable/selector_num5" />
+
+        <ImageButton
+            android:id="@+id/num6"
+            style="@style/NumButton"
+            android:background="@drawable/selector_num6" />
+
+        <ImageButton
+            android:id="@+id/calcMulti"
+            style="@style/OperatorButton"
+            android:background="@drawable/selector_ope_kakeru" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <ImageButton
+            android:id="@+id/num1"
+            style="@style/NumButton"
+            android:background="@drawable/selector_num1" />
+
+        <ImageButton
+            android:id="@+id/num2"
+            style="@style/NumButton"
+            android:background="@drawable/selector_num2" />
+
+        <ImageButton
+            android:id="@+id/num3"
+            style="@style/NumButton"
+            android:background="@drawable/selector_num3" />
+
+        <ImageButton
+            android:id="@+id/calcSub"
+            style="@style/OperatorButton"
+            android:background="@drawable/selector_ope_hiku" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <ImageButton
+            android:id="@+id/num0"
+            style="@style/NumButton"
+            android:background="@drawable/selector_num0" />
+
+        <ImageButton
+            android:id="@+id/numDot"
+            style="@style/NumButton"
+            android:background="@drawable/selector_numdot" />
+
+        <ImageButton
+            android:id="@+id/calcEq"
+            style="@style/OperatorButton"
+            android:background="@drawable/selector_ope_eq"
+            android:state_pressed="true" />
+
+        <ImageButton
+            android:id="@+id/calcAdd"
+            style="@style/OperatorButton"
+            android:background="@drawable/selector_ope_tasu" />
+    </TableRow>
+
+</TableLayout>

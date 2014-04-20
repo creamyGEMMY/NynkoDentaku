@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/otoku_item_a_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:text="アイテムＡ"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="価格"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/otoku_item_a_price"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/kadomaru"
+        android:inputType="number"
+        android:imeOptions="actionDone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="容量"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/otoku_item_a_volume"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/kadomaru"
+        android:inputType="number"
+        android:imeOptions="actionDone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="パック数"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/otoku_item_a_number"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/kadomaru"
+        android:inputType="number"
+        android:imeOptions="actionDone" />
+
+</LinearLayout>

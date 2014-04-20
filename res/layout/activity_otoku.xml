@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/deepskyblue"
+    android:orientation="vertical"
+    android:gravity="center_horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical|"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:text="複数パックの比較ですか？"
+            android:textSize="15sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="複数パック" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:background="#99FFFFFF" >
+
+        <include
+            android:id="@+id/otoku_item_a"
+            layout="@layout/otoku_item_a" />
+
+        <include
+            android:id="@+id/otoku_item_b"
+            layout="@layout/otoku_item_b" />
+        
+    </LinearLayout>
+    <Button 
+        android:id="@+id/button_otoku_do_calc"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:text="どっちがオトク？？"/>
+
+</LinearLayout>

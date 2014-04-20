@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal" >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_marginTop="38dp" >
+
+        <ImageView android:layout_width="48dp" />
+
+        <ImageView android:layout_width="176dp" />
+
+        <ImageView android:layout_width="88dp" />
+
+        <ImageView android:layout_width="48dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="48dp" >
+
+        <ImageButton
+            android:id="@+id/keypadAC"
+            style="@style/PanelMenuButton"
+            android:background="@drawable/btn_calc_ac" />
+
+        <TextView
+            android:id="@+id/displayPanel"
+            android:layout_span="2"
+            android:background="@drawable/semitransparent"
+            android:gravity="right"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+        <ImageButton
+            android:id="@+id/keypadCLR"
+            style="@style/PanelMenuButton"
+            android:background="@drawable/btn_calc_clr" />
+    </TableRow>
+
+    <TableRow android:layout_height="24dp" >
+
+        <ImageView android:layout_width="48dp" />
+
+        <TextView
+            android:id="@+id/subPanel"
+            android:background="@drawable/semitransparent"
+            android:textColor="@color/dimgray"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/copyPanel"
+            android:layout_span="2"
+            android:background="@drawable/tv_calc_fukidashi"
+            android:gravity="right"
+            android:text="今はカラだよ"
+            android:textColor="@color/dimgray"
+            android:textSize="10sp" />
+    </TableRow>
+
+    <TableRow android:layout_height="62dp" >
+
+        <ImageView android:layout_width="48dp" />
+
+        <ImageView android:layout_width="176dp" />
+
+        <ImageButton
+            android:id="@+id/keypadCopy"
+            style="@style/PanelMenuButton"
+            android:layout_width="136dp"
+            android:layout_span="2"
+            android:background="@drawable/btn_calc_copy" />
+    </TableRow>
+
+</TableLayout>
